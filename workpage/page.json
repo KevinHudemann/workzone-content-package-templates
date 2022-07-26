@@ -1,0 +1,85 @@
+{
+  "_version": "3.2.0",
+  "identification": {
+    "id": "workpage-id",
+    "entityType": "workpage",
+    "title": "{{Title}}"
+  },
+  "payload": {
+    "workpageConfig": {
+      "title": "Test Page"
+    },
+    "rows": [
+      {
+        "id": "row-1",
+        "rowConfig": {  },
+        "columns": [
+          {
+            "id": "col-11",
+            "columnConfig": {},
+            "cells": [
+              {
+                "id": "cell-111",
+                "cellConfig": {},
+                "widgets": [
+                  {
+                    "id": "widg-1",
+                    "viz": {
+                      "appId": "sap.workzone.cpkg.card.sample",
+                      "vizId": "sap.workzone.cpkg.card.sample"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "row-2",
+        "rowConfig": {},
+        "columns": [
+          {
+            "id": "col-21",
+            "columnConfig": {},
+            "cells": [
+              {
+                "id": "cell-211",
+                "cellConfig": {},
+                "widgets": [
+
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "texts": [
+    {
+      "locale": "",
+      "textDictionary": {
+        "Title": "Default Title"
+      }
+    },
+    {
+      "locale": "en",
+      "textDictionary": {
+        "Title": "English Title"
+      }
+    },
+    {
+      "locale": "de",
+      "textDictionary": {
+        "Title": "Deutscher Titel"
+      }
+    },
+    {
+      "locale": "es-AR",
+      "textDictionary": {
+        "Title": "Título español"
+      }
+    }
+  ]
+}
